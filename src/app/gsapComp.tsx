@@ -32,8 +32,6 @@ export default function GSAPComponent() {
             repeat: -1,
             yoyo: true,
             // see: https://gsap.com/docs/v3/Eases/
-            // aka easeinout
-            // cubic-bezier(0.42, 0, 0.58, 1).
             yoyoEase: "power1.inOut",
             ease: "power1.inOut",
             duration: 1.0,
